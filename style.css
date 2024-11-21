@@ -1,0 +1,45 @@
+body {
+color: white;
+background-color: black;
+margin: -5px;
+font-family: "Saira Condensed", sans-serif;
+
+}
+
+header{
+    border-bottom: solid 2px red;
+    padding: 30px;
+    font-size: 30px;
+color: red
+}
+
+section{
+    padding: 26px;
+    background: #680000;
+    display:flow-root;
+    justify-content: center;
+}
+
+section
+h1  { 
+    font-size: 56px;
+}
+p { 
+    font-size:23px;
+}
+img {
+    height: 200px;
+
+}
+.categoria-videos {
+    display: flex;
+}
+
+.categoria-videos img  {
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover {
+    opacity:1.0;
+    border: 2px solid whitesmoke;
+}
